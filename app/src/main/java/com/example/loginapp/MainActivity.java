@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity  {
 
                 // tyhjien kenttien check
                 if (Helpers.isEmpty(tunnus) || Helpers.isEmpty(salasana)) {
-                    testi.setText("TYHHIA KENTTIA");
+                    testi.setText("TYHJIA KENTTIA");
                 } else {
                     openOrCreateDatabase("kayttajatilit.db", MODE_PRIVATE, null);
 
